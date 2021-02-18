@@ -1,0 +1,24 @@
+{
+  "name": "lightcrawler",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "nodemon example.js"
+  },
+  "bin": {
+    "crawllighthouse": "./cli.js"
+  },
+  "author": "@dennispassway",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "chrome-launcher": "^0.13.4",
+    "lighthouse": "^7.1.0",
+    "simplecrawler": "^1.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
